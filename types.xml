@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>no</help_box>
+        <hide_standard_custom_fields_metabox>show</hide_standard_custom_fields_metabox>
+        <postmeta_unfiltered_html>on</postmeta_unfiltered_html>
+        <usermeta_unfiltered_html>on</usermeta_unfiltered_html>
+    </settings>
+    <types>
+        <type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1462369558</_toolset_edit_last>
+            <_wpcf_author_id>2</_wpcf_author_id>
+            <wpcf-post-type>new-hire</wpcf-post-type>
+            <icon>businessman</icon>
+            <labels>
+                <name>New Hires</name>
+                <singular_name>New Hire</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>new-hire</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <custom-field-group>
+                <hardware-supplies-recieve>370</hardware-supplies-recieve>
+                <hardware-supplies-request>356</hardware-supplies-request>
+                <basics>355</basics>
+                <new-hire-paperwork>353</new-hire-paperwork>
+                <orientation-to-decisionpathhr>351</orientation-to-decisionpathhr>
+                <systems-set-up>349</systems-set-up>
+                <hr>348</hr>
+            </custom-field-group>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <exclude_from_search>1</exclude_from_search>
+            <can_export>1</can_export>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <id>new-hire</id>
+            <__types_id>new-hire</__types_id>
+            <__types_title>New Hires</__types_title>
+            <hash>87d88b48db0fa37765d80d6ff3e425d6</hash>
+            <checksum>87d88b48db0fa37765d80d6ff3e425d6</checksum>
+        </type>
+    </types>
+</types>

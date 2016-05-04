@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <views>
+        <view>
+            <ID>310</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>New Hire Checklists</post_title>
+            <post_name>new-hire-checklists</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>pagination</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>modified</orderby>
+                    <order>DESC</order>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <posts_per_page>25</posts_per_page>
+                    <pagination>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <mode>paged</mode>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                        <state>enable</state>
+                    </pagination>
+                    <ajax_pagination>
+                        <style>fade</style>
+                        <duration>500</duration>
+                        <state>disable</state>
+                    </ajax_pagination>
+                    <rollover>
+                        <preload_images>1</preload_images>
+                        <posts_per_page>1</posts_per_page>
+                        <speed>5</speed>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                    </rollover>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <limit-offset>off</limit-offset>
+                    </sections-show-hide>
+                    <post_types>
+                        <post_type>new-hire</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;table width=&quot;100%&quot;&gt;
+		&lt;tbody class=&quot;wpv-loop js-wpv-loop&quot;&gt;
+		&lt;wpv-loop&gt;
+			&lt;tr&gt;
+				[wpv-post-body view_template=&quot;Loop item in New Hire Checklists&quot;]
+			&lt;/tr&gt;
+		&lt;/wpv-loop&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in New Hire Checklists</included_ct_ids>
+                    <style>table_of_fields</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-link]</real_field-0>
+                        <real_field-1>[types field=&quot;job-title&quot;][/types]</real_field-1>
+                        <real_field-2>[types field=&quot;office-location&quot;][/types]</real_field-2>
+                        <real_field-3>[types field=&quot;start-date&quot;][/types]</real_field-3>
+                    </real_fields>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in New Hire Checklists</_view_loop_template>
+            </meta>
+        </view>
+    </views>
+</views>
